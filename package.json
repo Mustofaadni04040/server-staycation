@@ -15,6 +15,6 @@
     "method-override": "^3.0.0",
     "mongoose": "^5.9.7",
     "morgan": "~1.9.1",
-    "startbootstrap-sb-admin-2": "^3.3.7"
+    "startbootstrap-sb-admin-2": "^4.0.7"
   }
 }
