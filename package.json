@@ -4,9 +4,13 @@
   "private": true,
   "scripts": {
     "start": "node ./bin/www",
-    "dev": "nodemon ./bin/www"
+    "dev": "nodemon ./bin/www",
+    "test": "mocha --exit"
   },
   "dependencies": {
+    "bcrypt": "^5.1.0",
+    "chai": "^4.3.7",
+    "chai-http": "^4.4.0",
     "connect-flash": "^0.1.1",
     "cookie-parser": "~1.4.4",
     "debug": "~2.6.9",
@@ -16,7 +20,9 @@
     "fs-extra": "^9.0.0",
     "http-errors": "~1.6.3",
     "method-override": "^3.0.0",
+    "mocha": "^10.2.0",
     "mongoose": "^5.9.7",
+    "mongoose-seed": "^0.6.0",
     "morgan": "~1.9.1",
     "multer": "^1.4.5-lts.1",
     "startbootstrap-sb-admin-2": "^4.0.7"

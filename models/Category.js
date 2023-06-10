@@ -9,7 +9,7 @@ const categorySchema = new mongoose.Schema({
   itemId: [
     {
       type: ObjectId,
-      res: "Item",
+      ref: "Item",
     },
   ],
 });
