@@ -11,7 +11,7 @@ const mongoose = require("mongoose");
 mongoose.connect(
   "mongodb+srv://mustofaadni:bwamern@cluster0.vhns6ow.mongodb.net/db_staycation?retryWrites=true&w=majority",
   {
-    useNewUrlParsers: true,
+    useNewUrlParser: true,
     useUnifiedTopology: true,
     useCreateIndex: true,
     useFindAndModify: false,
