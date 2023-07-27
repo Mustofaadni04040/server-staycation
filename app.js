@@ -6,7 +6,7 @@ var logger = require("morgan");
 const methodOverride = require("method-override");
 const session = require("express-session");
 const flash = require("connect-flash");
-//import moongosee
+//import moongose
 const mongoose = require("mongoose");
 mongoose.connect(
   "mongodb+srv://mustofaadni:bwamern@cluster0.vhns6ow.mongodb.net/db_staycation?retryWrites=true&w=majority",
